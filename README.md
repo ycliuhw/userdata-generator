@@ -6,7 +6,7 @@ troposphere user data generator for `human`
 
 ## simply write user data like this ->
 
-```text
+```bash
 #!/bin/bash
 sudo apt update && apt install -y python-setuptools python-pip jq awscli
 sudo pip install https://s3.amazonaws.com/cloudformation-examples/aws-cfn-bootstrap-latest.tar.gz
