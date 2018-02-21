@@ -76,7 +76,7 @@ cfn-init -s Ref(AWS::StackName) -r awesome-stack-name --region=Ref(AWS::Region) 
 
 then this small tool will convert it to `troposphere` - `Join` or `Base64` for machine, `rendered.to_dict()` will be like ->
 
-```json
+```text
 {
     'Fn::Join':
         [
