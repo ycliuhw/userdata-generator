@@ -24,7 +24,7 @@ yapf:
 
 .PHONY: pytest
 pytest:
-	py.test --spec --cov=src --cov-report html --cov-report term tests
+	py.test --cov=src
 
 
 .PHONY: test
