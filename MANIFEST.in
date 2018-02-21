@@ -1,0 +1,9 @@
+include README.md COPYING
+include requirements.txt
+recursive-include docs *
+recursive-include packaging *
+recursive-include tests *
+include Makefile
+include MANIFEST.in
+include CHANGELOG.md
+include LICENSE
