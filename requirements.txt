@@ -10,3 +10,6 @@ mypy
 pytest
 pytest-coverage
 pytest-spec
+
+# coverage report
+codecov
