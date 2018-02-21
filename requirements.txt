@@ -1,2 +1,12 @@
 troposphere==2.2.0
-yapf==0.20.2
+
+# dev deps
+isort
+ipython
+yapf
+mypy
+
+# Testing
+pytest
+pytest-coverage
+pytest-spec
