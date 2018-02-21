@@ -9,7 +9,7 @@ ensure_venv:
 
 .PHONY: install-deps
 install-deps: ensure_venv
-	$(virtualenv_dir)/bin/pip install -r requirements.txt
+	$(virtualenv_dir)/bin/pip install -r requirements-dev.txt
 
 
 .PHONY: isort
