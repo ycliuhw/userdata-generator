@@ -1,0 +1,15 @@
+-r requirements.txt
+
+# dev deps
+isort
+ipython
+yapf
+mypy
+
+# Testing
+pytest
+pytest-coverage
+pytest-spec
+
+# coverage report
+codecov
