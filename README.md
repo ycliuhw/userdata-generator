@@ -33,7 +33,7 @@ python setup.py install
 
 ## simply write user data like this ->
 
-```bash
+```python
 #!/bin/bash
 sudo apt update && apt install -y python-setuptools python-pip jq awscli
 sudo pip install https://s3.amazonaws.com/cloudformation-examples/aws-cfn-bootstrap-latest.tar.gz
@@ -76,7 +76,7 @@ cfn-init -s Ref(AWS::StackName) -r awesome-stack-name --region=Ref(AWS::Region) 
 
 then this small tool will convert it to `troposphere` - `Join` or `Base64` for machine, `rendered.to_dict()` will be like ->
 
-```text
+```python
 {
     'Fn::Join':
         [
