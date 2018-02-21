@@ -1,9 +1,8 @@
 import logging
 import re
+from urllib.parse import unquote
 
 import troposphere
-from urllib import unquote
-# from troposphere import Base64, Join, Ref, GetAtt
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
 logger = logging.getLogger(__name__)
