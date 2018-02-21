@@ -4,6 +4,33 @@
 
 troposphere user data generator for `human`
 
+---
+
+## Installation
+
+---
+
+### from pypi
+
+---
+
+```bash
+pip install userdata-cool
+```
+
+### from source
+
+---
+
+```bash
+git clone https://github.com/ycliuhw/userdata-generator.git
+cd userdata-generator
+
+virtualenv -p $(which python3.6) venv
+source venv/bin/activate
+python setup.py install
+```
+
 ## simply write user data like this ->
 
 ```bash
