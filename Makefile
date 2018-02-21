@@ -14,12 +14,12 @@ install-deps: ensure_venv
 
 .PHONY: isort
 isort:
-	isort --recursive --quiet src/ bin/ tests/  # --check-only
+	isort --recursive --quiet src/ tests/  # --check-only
 
 
 .PHONY: yapf
 yapf:
-	yapf --recursive --in-place src/ bin/ tests/ setup.py conftest.py
+	yapf --recursive --in-place src/ tests/ setup.py conftest.py
 
 
 .PHONY: pytest
