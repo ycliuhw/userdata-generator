@@ -1,6 +1,6 @@
 # userdata-generator
 
-![build-status](http://nginx.k8s.domainsecurity.cc/api/badges/ycliuhw/userdata-generator/status.svg?branch=master)
+![build-status](http://nginx.k8s.domainsecurity.cc/api/badges/ycliuhw/userdata-generator/status.svg?branch=master) [![codecov](https://codecov.io/gh/ycliuhw/userdata-generator/branch/master/graph/badge.svg)](https://codecov.io/gh/ycliuhw/userdata-generator)
 
 troposphere user data generator for `human`
 
