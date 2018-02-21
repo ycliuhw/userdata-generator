@@ -7,8 +7,6 @@ import troposphere
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
 logger = logging.getLogger(__name__)
 
-__all__ = ('to_userdata', )
-
 
 class NotMatchError(Exception):
     ...
