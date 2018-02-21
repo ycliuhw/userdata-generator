@@ -10,4 +10,4 @@ pipeline:
 
   codecov:
     image: robertstettner/drone-codecov
-    secrets: [ codecov-userdata-generator ]
+    secrets: [ codecov_token ]
