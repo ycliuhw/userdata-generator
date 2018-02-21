@@ -60,7 +60,7 @@ SUPPORTED_ELEMENTS = (
 
 
 def to_userdata(userdata_str, base64_encode=True):
-    splitted = re.split('(%s)' % ('|'.jojn(map(lambda e: e.split_exp, SUPPORTED_ELEMENTS))), userdata_str)
+    splitted = re.split('(%s)' % ('|'.join(map(lambda e: e.split_exp, SUPPORTED_ELEMENTS))), userdata_str)
 
     def check(value):
         for e in SUPPORTED_ELEMENTS:
@@ -71,4 +71,4 @@ def to_userdata(userdata_str, base64_encode=True):
         return value
 
     userdata = troposphere.Join('', list(map(check, splitted)))
-    return Base64(userdata) if base64_encode else userdata
+    return troposphere.Base64(userdata) if base64_encode else userdata
