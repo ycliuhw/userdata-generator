@@ -14,8 +14,11 @@ class NotMatchError(Exception):
 
 class Type(object):
 
-    name = None
     pattern = None
+
+    @property
+    def name(self):
+        return self.__class__.__name__
 
     @property
     def split_exp(self):
@@ -37,13 +40,11 @@ class Type(object):
 
 class Ref(Type):
 
-    name = 'Ref'
     pattern = '[a-zA-Z0-9\-:%]+'
 
 
 class GetAtt(Type):
 
-    name = 'GetAtt'
     pattern = '[a-zA-Z0-9, \-:%]+'
 
     def _handle(self, value):
