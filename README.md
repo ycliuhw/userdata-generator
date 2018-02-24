@@ -3,6 +3,7 @@
 ![build-status](http://nginx.k8s.domainsecurity.cc/api/badges/ycliuhw/userdata-generator/status.svg?branch=master) [![codecov](https://codecov.io/gh/ycliuhw/userdata-generator/branch/master/graph/badge.svg)](https://codecov.io/gh/ycliuhw/userdata-generator)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![PyPI](https://img.shields.io/pypi/v/pybenchmark.svg)](https://pypi.python.org/pypi/userdata-cool)
 
 troposphere user data generator for `human`
 
